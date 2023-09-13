@@ -1,1 +1,17 @@
+.cushead{
+    background: url(images/Rectangle\ 19290.svg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
 
+}
+.navigator{
+    color: #FFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

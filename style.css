@@ -5,12 +5,14 @@
     background-size: cover;
 }
 .navbar{
-    margin:0px 300px
+    margin:0px 300px;
+    font-family:'Times New Roman', Times, serif;
+    
 
 }
 .navigator{
-    color: #ffffff;
-    font-family:'Times New Roman', Times, serif;
+    color: #bf2121;
+    font-family:'Poppins', sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
@@ -20,7 +22,7 @@
     display: block;
 }
 .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -38,6 +40,9 @@
 }
   li.dropdown {
     display: inline-block;
+  }
+  .navlink{
+    color: ;
   }
   /* navbar */
 

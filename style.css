@@ -52,5 +52,70 @@
     text-align: left;
     font: 700 58.51px/67.91px "Poppins", sans-serif;
     position: relative;
-    padding-top: 320px;
+    padding-top: 120px;
   }
+  .searchbar{
+      background: rgba(243, 243, 243, 0.6);
+      border-radius: 5.22px;
+      width: 844px;
+      height: 90px;
+      position: relative;
+      backdrop-filter: blur(17.76px);
+      display: flex;
+  }
+  .where-to{
+color: #ffffff;
+text-align: left;
+font: 400 18.81px 'Poppins', sans-serif;
+position: relative;
+padding:  33px 1px 33px 39px;
+}
+.travel-type {
+  color: #ffffff;
+text-align: left;
+font: 400 18.81px 'Poppins', sans-serif;
+position: relative;
+padding:  33px 1px 33px 39px;
+  }
+  .duration{
+    color: #ffffff;
+text-align: left;
+font: 400 18.81px 'Poppins', sans-serif;
+position: relative;
+padding:  33px 1px 33px 39px;
+  }
+  .sub{
+    background: #df6951;
+    color: #ffffff;
+border-radius: 10px;
+font: 400 18.81px 'Poppins', sans-serif;
+width: 176.56px;
+height: 56.42px;
+position: relative;
+margin: 15px;
+padding: 10px 45px;
+border-color: #df6951;
+
+}
+/*  */
+.ellipse-31 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  }
+
+  
+
+  
+
+
+
+
+
+
+
+

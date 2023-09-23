@@ -3,13 +3,16 @@
     height:100%;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.navbar{
-    margin:0px 300px;
-    font-family:'Times New Roman', Times, serif;
     
+}
+.firstpage{
+  margin:0px 300px;
 
 }
+.navbar{
+    font-family:'Times New Roman', Times, serif;
+}
+
 .navigator{
     color: #bf2121;
     font-family:'Poppins', sans-serif;
@@ -106,6 +109,7 @@ border-color: #df6951;
   width: 568.37px;
   height: 39.54px;
   position: static;
+  margin-top: 15px;
  }
 
 .quote{
@@ -142,6 +146,7 @@ border-color: #df6951;
   width: 36px;
   height: 36px;
   position: absolute;
+  margin-left: 20px;
 }
 
 
@@ -153,6 +158,7 @@ border-color: #df6951;
   width: 36px;
   height: 36px;
   position: absolute;
+  margin-left: 40px;
   
  }
 
@@ -164,6 +170,7 @@ border-color: #df6951;
   width: 36px;
   height: 36px;
   position: absolute;
+  margin-left: 60px;
   
  }
 
@@ -175,6 +182,7 @@ border-color: #df6951;
   width: 36px;
   height: 36px;
   position: absolute;
+  margin-left: 80px;
   
  }
 
@@ -186,6 +194,7 @@ border-color: #df6951;
   width: 36px;
   height: 36px;
   position: absolute;
+  margin-left: 100px;
  
  }
 
@@ -198,6 +207,7 @@ border-color: #df6951;
   width: 36px;
   height: 36px;
   position: absolute;
+  margin-left: 120px;
  
  }
 
@@ -206,8 +216,18 @@ border-color: #df6951;
   text-align: left;
   font: 500 12.54px/37.61px 'Poppins', sans-serif;
   position: absolute;
+  margin-left:133px;
  }
-
+/* hero  */
+.category{
+  margin:0px 300px;
+  text-align: center;
+  margin-top: 40px;
+}
+.travelcards:hover{
+  box-shadow: 0 0px 5px rgba(193, 190, 190, 0.8);
+  border-radius: 20px;
+}
 
 
   

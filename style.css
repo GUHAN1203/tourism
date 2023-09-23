@@ -98,15 +98,127 @@ border-color: #df6951;
 
 }
 /*  */
+.clients, .clients * {
+  box-sizing: border-box;
+  }
+
+.clients {
+  width: 568.37px;
+  height: 39.54px;
+  position: static;
+ }
+
+.quote{
+ color: #ffffff;
+  text-align: left;
+  font: 500 12.54px/37.61px 'Poppins', sans-serif;
+  position: absolute;
+  left: 515.37px;
+top: 702.54px;
+  
+ }
+
+.circles {
+ width: 181.79px;
+  height: 36px;
+  position: static;
+  
+ }
+
 .ellipse-31 {
+ border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 320px;
+ }
+
+.ellipse-32 {
+ border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 344px;
+}
+
+
+.ellipse-33 {
+ border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 368px;
+  
+ }
+
+.ellipse-34 {
+ border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 392px;
+  
+ }
+
+.ellipse-35 {
+ border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 417px;
+  
+ }
+
+.ellipse-36 {
+ border-radius: 50%;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2.09px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 441px;
+ 
+ }
+
+.ellipse-37 {
+ background: #df6951;
   border-radius: 50%;
   border-style: solid;
   border-color: var(--white, #ffffff);
   border-width: 2.09px;
   width: 36px;
   height: 36px;
-  position: relative;
-  }
+  position: absolute;
+  left: 465px;
+ 
+ }
+
+.blank{
+ color: #ffffff;
+  text-align: left;
+  font: 500 12.54px/37.61px 'Poppins', sans-serif;
+  position: absolute;
+  left: 480px;
+top: 701px;
+ }
+
+
 
   
 

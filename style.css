@@ -1,5 +1,5 @@
 .cushead{
-    background: url(images/Rectangle\ 19290.svg);
+    background:url(images/Rectangle\ 19290.png);
     height:100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@
     display: none;
     position: absolute;
     font-size: smaller;
-    background-color:transparent
+    background-color:transparent;
     min-width:160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index : 1;
@@ -41,9 +41,7 @@
   li.dropdown {
     display: inline-block;
   }
-  .navlink{
-    color: ;
-  }
+ 
   /* navbar */
 
   /* main home*/

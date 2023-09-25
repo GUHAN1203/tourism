@@ -233,19 +233,20 @@ border-color: #df6951;
 .texthm{
   color: var(--black, #000000);
   text-align: left;
-  font: 700 51.19px/67.91px "Poppins", sans-serif;
+  font: 700 51.19px/47.91px "Poppins", sans-serif;
   opacity: 0.10000000149011612;
   position:relative;
   transform-origin: 0 0;
   transform: rotate(-90deg) scale(1, 1);
-  margin-left: 220px;
+  margin-left: 230px;
   margin-top: 150px;
   
 
 }
 
 .couples{
- margin: 200px 291px ;
+ margin-top: 200px ;
+ margin-left:291px ;
  position: absolute;
  border-radius: 400px 400px 0px 0px;
 }
@@ -262,6 +263,29 @@ border-color: #df6951;
 .flora{
   position:relative ;
   margin-top:120px;
+}
+.honeymoon{
+  display: flex;
+}
+.rightside{
+  flex: 50%;
+  margin-top: 423px;
+  margin-left: 122px;
+}
+.leftside{
+  flex: 50%;
+}
+.headhoney{
+  color: #df6951;
+}
+.honeybtn{
+  color:#ffffff;
+  background-color: #df6951;
+  border-color: #df6951;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  
 }
 
 

@@ -1,5 +1,6 @@
+/* navbar */
 .cushead{
-    background: url(images/Rectangle\ 19290.svg);
+    background: url(images/main/hero.png);
     height:100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +37,7 @@
     display: none;
     position: absolute;
     font-size: smaller;
-    background-color:transparent
+    background-color:transparent;
     min-width:160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index : 1;
@@ -44,10 +45,7 @@
   li.dropdown {
     display: inline-block;
   }
-  .navlink{
-    color: ;
-  }
-  /* navbar */
+  /*end navbar */
 
   /* main home*/
   .slogans {
@@ -100,7 +98,7 @@ padding: 10px 45px;
 border-color: #df6951;
 
 }
-/*  */
+/* circles */
 .clients, .clients * {
   box-sizing: border-box;
   }
@@ -218,6 +216,7 @@ border-color: #df6951;
   position: absolute;
   margin-left:133px;
  }
+ /* end circles */
 /* hero  */
 .category{
   margin:0px 300px;
@@ -227,6 +226,42 @@ border-color: #df6951;
 .travelcards:hover{
   box-shadow: 0 0px 5px rgba(193, 190, 190, 0.8);
   border-radius: 20px;
+}
+/* end hero*/
+
+/* honeymoon */
+.texthm{
+  color: var(--black, #000000);
+  text-align: left;
+  font: 700 51.19px/67.91px "Poppins", sans-serif;
+  opacity: 0.10000000149011612;
+  position:relative;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+  margin-left: 220px;
+  margin-top: 150px;
+  
+
+}
+
+.couples{
+ margin: 200px 291px ;
+ position: absolute;
+ border-radius: 400px 400px 0px 0px;
+}
+.kiss{
+  position:relative ;
+  margin-top:100px;
+  margin-left: 230px;
+}
+.hug{
+  position:relative ;
+  margin-top:50px;
+  margin-left: 80px;
+}
+.flora{
+  position:relative ;
+  margin-top:120px;
 }
 
 

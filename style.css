@@ -285,8 +285,91 @@ border-color: #df6951;
   border: none;
   border-radius: 5px;
   margin-top: 10px;
-  
 }
+/* fast and easy */
+.headfast{
+  color: #df6951;
+}
+.fasteasy{
+  display: flex;
+}
+.fastright{
+  flex: 60%;
+  margin-top: 100px;
+ 
+}
+.fastleft{
+  flex: 40%;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.fastcontent{
+  margin-top: 25px;
+}
+.aeroplane{
+
+position: absolute;
+margin-left: 125px;
+}
+.fastcards{
+  position:relative;
+  margin-top: 155px;
+  margin-left: 90px;
+  z-index: 99px;
+ 
+}
+.fastcards * {
+  box-sizing: border-box;
+}
+.fastcards:hover{
+  box-shadow: 0 0px 5px rgba(231, 228, 228, 0.8);
+  border-radius: 10px; 
+}
+.leaf {
+  border-radius: 50%;
+   border-style: solid;
+   border-color: var(--white, #ffffff);
+   border-width: 2.09px;
+   position: absolute;
+   margin-left: 0px;
+   height: 20px;
+   width: 20px;
+}
+.map {
+  border-radius: 50%;
+   border-style: solid;
+   border-color: var(--white, #ffffff);
+   border-width: 2.09px;
+   position: absolute;
+   margin-left: 40px;
+   height: 20px;
+   width: 20px;
+}
+.send {
+  border-radius: 50%;
+   border-style: solid;
+   border-color: var(--white, #ffffff);
+   border-width: 2.09px;
+   position: absolute;
+   margin-left: 80px;
+   height: 20px;
+   width: 20px;
+}
+.beach{
+  border-radius: 50px;
+}
+.triprome{
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0px 5px rgba(231, 228, 228, 0.8);
+  position:absolute;
+  margin-left: 290px;
+  margin-top: 300px;
+}
+
+/* end of fast and easy */
+
+
 
 
   

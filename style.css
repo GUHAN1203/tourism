@@ -477,24 +477,45 @@ z-index: -1;
 .nature{
   width: 760px;
 height: 365px;
-position: relative;
 }
 .city{
   width: 759px;
 height: 365px;
-position: relative;
 }
-.explorecontent{
-  position: absolute;
-  margin-left: 300px;
+.exploreleftcontent{
+  position:absolute;
+  text-align: center;
+  margin-left: 280px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
-  font-size:10px;
-  margin-top: 70px;
-  color: #981111;
+  font-size:40px;
+  margin-top: 150px;
+  color: #ffffff;
 }
+.explorerightcontent{
+  position:absolute;
+  text-align: center;
+  margin-left: 280px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size:40px;
+  margin-top: 150px;
+  color: #ffffff;
+}
+.expbtn{
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  box-shadow:white;
+  border-color: white;
+}
+/* end of explore */
 
-
+/* trendy */
+.trendy{
+  margin-top: 70px;
+  text-align: center;
+}
 
 
 

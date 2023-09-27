@@ -517,9 +517,13 @@ height: 365px;
   margin-top: 70px;
   text-align: center;
 }
+.card{
+  border: none;
+}
 .card-body{
   text-align: left;
   margin-top: 5px;
+  
 }
 .line1{
   margin-left: 3px;
@@ -545,6 +549,68 @@ height: 365px;
   margin-top: 8px;
   margin-left: 90px;
 }
+/* end of trendy */
+/* about us */
+.aboutusback{
+  width: 1519px;
+  height: 568px;
+ 
+  }
+  .headabout{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 700px;
+    color: #df6951;
+    
+  }
+  .about-content{
+    position: absolute;
+    margin-top: 150px;
+    margin-left:550px ;
+  }
+  .client{
+position:absolute;
+margin-top: 280px;
+margin-left: 700px;
+width: 150px;
+z-index: 2;
+  }
+  .aboutpara{
+    position: absolute;
+    margin-top: 400px;
+    text-align: center;
+    margin-left: 630px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 3;
+  }
+  .aboutrect{
+      background: #ffffff;
+      border-radius : 17px;
+      width: 538px;
+      height: 197px;
+      position: absolute;
+      margin-top: 350px;
+      margin-left: 500px;
+      z-index: 1;
+      }
+     
+    .navleft{
+      position: absolute;
+      margin-top: 410px;
+      margin-left: 430px;
+      z-index: 4;
+    }  
+    .navright{
+      position: absolute;
+      margin-top: 410px;
+      margin-left: 970px;
+      z-index: 4;
+    } 
+    /* end of about us */
+
+    /* footer */
+
+    
 
 
 

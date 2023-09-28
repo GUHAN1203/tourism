@@ -217,6 +217,7 @@ border-color: #df6951;
   margin-left:133px;
  }
  /* end circles */
+ 
 /* hero  */
 .category{
   margin:0px 300px;
@@ -226,6 +227,8 @@ border-color: #df6951;
 .travelcards:hover{
   box-shadow: 0 0px 5px rgba(193, 190, 190, 0.8);
   border-radius: 20px;
+  width: 325px;
+  height: 200px;
 }
 /* end hero*/
 

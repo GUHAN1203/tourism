@@ -123,9 +123,13 @@ border-color: #df6951;
  width: 181.79px;
   height: 36px;
   position: static;
-  
- }
-
+  display: flex;
+  gap:5px;
+}
+.circles > :not(:first-child){
+  margin-left:-20px;
+}
+/* 
 .ellipse-31 {
  border-radius: 50%;
   border-style: solid;
@@ -194,9 +198,9 @@ border-color: #df6951;
   position: absolute;
   margin-left: 100px;
  
- }
+ } */
 
-.ellipse-37 {
+ .ellipse-37 {
  background: #df6951;
   border-radius: 50%;
   border-style: solid;
@@ -206,12 +210,11 @@ border-color: #df6951;
   height: 36px;
   position: absolute;
   margin-left: 120px;
- 
  }
 
 .blank{
  color: #ffffff;
-  text-align: left;
+  text-align: center;
   font: 500 12.54px/37.61px 'Poppins', sans-serif;
   position: absolute;
   margin-left:133px;
@@ -612,7 +615,13 @@ z-index: 2;
     /* end of about us */
 
   
-
+.imgcircles{
+  display: flex;
+  gap:16px;
+}
+.imgcircles > :not(:first-child){
+  margin-left:-30px;
+}
 
 
 

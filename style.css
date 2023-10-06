@@ -622,9 +622,47 @@ z-index: 2;
 .imgcircles > :not(:first-child){
   margin-left:-30px;
 }
+/* responsive */
+
+@media  (max-width: 600px) {
+  .honeymoon {
+    display: block; 
+    max-width:100%;
+
+    .leftside{
+      width:min-content;
+      left: auto;
+
+      .couples{
+        width: 50%;
+        margin-left: 150px;
+      }
+
+      .kiss{
+        width: 15%;
+        margin-left: 120px;
+      }
+      .flora{
+        width: 30%;
+      }
+      .hug{
+        width: 30%;
+        margin-left: 20px;
+      }
+      .texthm{
+        margin-left: 90px;
+        font-size: px;
+      }
+     }
+    
+
+    .rightside{
+      margin-top: 50px;
+    }
+  
+  }
 
 
 
 
-
-
+}

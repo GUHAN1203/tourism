@@ -647,7 +647,7 @@ z-index: 2;
 
 /* responsive */
 
-@media  (max-width: 1000px) {
+@media  (max-width: 1400px) {
 body{
   overflow-x: hidden;
 }

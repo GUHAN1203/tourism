@@ -622,16 +622,110 @@ z-index: 2;
 .imgcircles > :not(:first-child){
   margin-left:-30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive */
 
-@media  (max-width: 600px) {
+@media  (max-width: 1000px) {
+body{
+  overflow-x: hidden;
+}
+  /* header */
+  .firstpage{
+    margin: 0;
+  }
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+.navigator{
+  justify-content:space-evenly;
+  margin-left: 30px;
+}
+ .navbut{
+    display: flex;
+    justify-content: center;
+ }
+ .slogans{
+  width: 100%;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.searchbar{
+  width: 80%;
+}
+.where-to,.travel-type, .duration,.sub {
+ font-size: 15px;
+}
+ .circles,.ellipse-37,.blank,.quote{
+  display:none;
+ }
+
+
+  /* end of header */
+  
+  /* brands */
+  .hero1{
+    width: 100%;
+    justify-content:space-around;
+  }
+  img{
+    width: 80%;
+  }
+  
+ 
+    
+  
+  /* brands end */
+  /* category */
+  .category{
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    justify-content:space-evenly;
+  }
+  .fourcards{
+    width:100%;
+    display : flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .orange{
+    display:none;
+  }
+  /* category end */
+  /* honeymoon */
   .honeymoon {
     display: block; 
     max-width:100%;
+    justify-content: center;
 
     .leftside{
-      width:min-content;
-      left: auto;
+      width:100%;
+      justify-content: center;
+      
 
       .couples{
         width: 50%;
@@ -657,12 +751,127 @@ z-index: 2;
     
 
     .rightside{
-      margin-top: 50px;
+      margin-top: 40px;
+      
     }
   
   }
+  /* honeymoon end */
+  
+/* fast and easy */
+.fasteasy{
+  display: block; 
+  max-width:100%;
+  justify-content: center;
+}
+.fastimg{
+  width:80px;
+}
+.fastleft{
+  display: block;
+
+}
+.fastcontent{
+  width: 100%;
+  margin-left:-50px;
+}
+p{
+  width: 350%;
+  justify-content: center;
+}
+.fastright{
+ display: none;
+}
+
+/* end fast and easy */
+/* liberty card */
+.liberty{
+  width: 100%;
+  height: 20%;
+}
+.libertycontent{
+  font-size: 30px;
+  margin-left: 100;
+}
+/* end liberty card */
+/* promotion */
+.promotion{
+  display: block; 
+  max-width:100%;
+  justify-content: center;
+}
+.promoleftside
+{
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.promobox{
+  justify-content: center;
+}
+.promorightside{
+  display: none;
+}
+/* end promotion */
+/* explore */
+.explore{
+  display: block;
+}
+.promobadge{
+  display: none;
+}
+.nature,.city{width: 100%}
+.exploreleftcontent,.explorerightcontent{
+  margin-top: 100px;
+align-items: center;
+justify-content: center;
+}
+/* end explore */
+/* about us */
+.aboutus{
+  display: none;
+}
+.aboutusback{
+  width: 100%;
+  height: 50%;
+}
+.navright,.navleft{
+ display: none;
+}
+.client{
+  width: 20%;
+  margin: 0;
+
+}
+/* endtrendy */
+/* footer */
+.footcopy{
+  margin-left:-500px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
